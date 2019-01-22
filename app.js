@@ -21,7 +21,7 @@
  */
 
 oppia.factory('FocusManagerService', [
-  '$timeout', '$rootScope', 'DeviceInfoService', 'LABEL_FOR_CLEARING_FOCUS',
+  '$log', '$rootScope', 'DeviceInfoService', 'LABEL_FOR_CLEARING_FOCUS',
   'IdGenerationService',
   function(
       $timeout, $rootScope, DeviceInfoService, LABEL_FOR_CLEARING_FOCUS,
