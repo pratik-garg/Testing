@@ -28,10 +28,10 @@ oppia.factory('FocusManagerService', [
       IdGenerationService) {
     var _nextLabelToFocusOn = null;
     return {
-      clearFocus: function() {
+      clearFocus: function() { // This function is used to set focus
         this.setFocus(LABEL_FOR_CLEARING_FOCUS);
       },
-      setFocus: function(name) {
+      setFocus: function(name) {    
         if (_nextLabelToFocusOn) {
           return;
         }
