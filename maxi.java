@@ -13,6 +13,6 @@ class maxi
         for(i=0;i<n;i++)
         {if(a[i]>max)
         max=a[i];}
-        System.out.println(max);
+        System.out.println(max); // Printing max value
     }}
     
